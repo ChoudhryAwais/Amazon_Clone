@@ -3,7 +3,7 @@ import './Product.css';
 import { useStateValue } from './StateProvider';
 
 function Product({id,title,image,price,rating}) {
-    const [{},dispatch] = useStateValue();
+    const [dispatch] = useStateValue();
 
     const addToBasket = () => {
         // Add item to basket
@@ -31,7 +31,7 @@ function Product({id,title,image,price,rating}) {
                         Array(rating)
                         .fill()
                         .map((_) => (
-                            <p>⭐️</p>
+                            <span>⭐️</span>
                         ))
                     }
                 </div>
