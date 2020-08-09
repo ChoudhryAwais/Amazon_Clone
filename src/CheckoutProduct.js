@@ -33,7 +33,7 @@ function CheckoutProduct({id,title,image,price,rating}) {
                         Array(rating)
                         .fill()
                         .map((_) => (
-                            <span role="img" aria-label="true" aria-labelledby="true">⭐️</span>
+                            <span role="img" aria-label="start" aria-labelledby="emoji emojilabel">⭐️</span>
                         ))
                     }
                 </div>

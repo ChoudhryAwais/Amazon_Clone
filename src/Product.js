@@ -31,7 +31,7 @@ function Product({id,title,image,price,rating}) {
                         Array(rating)
                         .fill()
                         .map((_) => (
-                            <span id="emoji" role="img" aria-label="start" aria-labelledby="emoji emojilabel">⭐️</span>
+                            <span role="img" aria-label="start" aria-labelledby="emoji emojilabel">⭐️</span>
                         ))
                     }
                 </div>
